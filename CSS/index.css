@@ -56,6 +56,17 @@ header #movieNavbar .nav-item{
     letter-spacing: 3px;
     font-size: 16px;
 }
+header .navbar-toggler{
+    color: #fbbd61;
+}
+.navbar-collapse{
+    transition: all 0.5s;
+}
+.navbar-collapse.show{
+    background-color: #ec7532;
+    border-radius: 10px;
+    overflow: hidden;
+}
 
 /* ============================================================================ */
 /* ============================================================================ */
@@ -319,7 +330,7 @@ header #movieNavbar .nav-item{
 .showTimes .viewingTime button{
     font-size: 14px;
     padding: 3px 12px;
-    margin: 0 3px;
+    margin: 10px 3px;
 }
 .showTimes .timeCost span{
     font-size: 14px;
@@ -402,6 +413,10 @@ header #movieNavbar .nav-item{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.comingSoon__trailer img{
+    width: 100%;
+    height: 100%;
 }
 
 
